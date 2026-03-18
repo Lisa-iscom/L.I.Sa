@@ -1,0 +1,34 @@
+# Companion Core — Configuration
+
+# Web interface
+web:
+  host: "0.0.0.0"
+  port: 7777
+  password: "changeme"
+  session_secret: "change-this-secret-key-please"
+
+# LLM server (llama.cpp)
+llm:
+  host: "127.0.0.1"
+  port: 8080
+  model_path: "models/qwen2.5-7b-instruct-q4_k_m.gguf"
+  context_size: 8192
+  threads: 8
+  gpu_layers: 0
+  max_tokens: 1024
+  temperature: 0.75
+  top_p: 0.9
+  repeat_penalty: 1.1
+
+# Memory
+memory:
+  max_dialogue_turns: 20
+  facts_file: "memory/facts.json"
+  relationship_file: "memory/relationship.md"
+  moments_file: "memory/moments.md"
+  dialogue_file: "memory/dialogue.json"
+
+# Model download (set automatically by install.sh)
+model:
+  url: "https://huggingface.co/Qwen/Qwen2.5-7B-Instruct-GGUF/resolve/main/qwen2.5-7b-instruct-q4_k_m.gguf"
+  filename: "qwen2.5-7b-instruct-q4_k_m.gguf"
