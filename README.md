@@ -18,6 +18,12 @@ The goal is to build a community where:
 
 Every contribution matters — both for your own robot and for the entire community.
 
+## 🏆 Top Contributors
+
+Authors of the best enhancements, improvements, and new parts will receive **an invitation to permanent collaboration**.
+
+Contribute your designs via Pull Requests or Issues — your work can become part of the official project and get recognized publicly.
+
 We also plan to use donations to purchase high-quality files from top engineers and release them freely for everyone.
 
 Join in.  
